@@ -101,14 +101,14 @@ static Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_q,     quit,           {0} },
-	{ MODKEY,			                  XK_v,	    spawn,	        SHCMD("chromium") },
-	{ MODKEY|ShiftMask,		          XK_m, 	  spawn,	        {.v = mutevol} },
-	{ MODKEY|ShiftMask,			        XK_u, 	  spawn,	        {.v = upvol} },
-	{ MODKEY|ShiftMask,			        XK_d, 	  spawn,	        {.v = downvol } },
-	{ MODKEY,			                  XK_o,	    spawn,	        SHCMD("kitty") },
-  { MODKEY,     			            XK_z,     spawn,   	      SHCMD("redshift -O 2400") },
- 	{ MODKEY,     			            XK_x,     spawn,   	      SHCMD("redshift -x") },
-  { MODKEY,                       XK_n,     spawn,          SHCMD("thunar") }
+	{ MODKEY,			            XK_v,	  spawn,	      SHCMD("chromium") },
+	{ MODKEY|ShiftMask,		        XK_m, 	  spawn,	      {.v = mutevol} },
+	{ MODKEY|ShiftMask,			    XK_u, 	  spawn,	      {.v = upvol} },
+	{ MODKEY|ShiftMask,			    XK_d, 	  spawn,	      {.v = downvol } },
+	{ MODKEY,			            XK_o,	  spawn,	      SHCMD("kitty") },
+  	{ MODKEY,     			        XK_z,     spawn,   	      SHCMD("redshift -O 2400") },
+ 	{ MODKEY,     			        XK_x,     spawn,   	      SHCMD("redshift -x") },
+  	{ MODKEY,                       XK_n,     spawn,          SHCMD("thunar") }
 };
 
 
