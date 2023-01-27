@@ -1,0 +1,21 @@
+### keyboard ###
+
+setxkbmap eu &
+
+### Multiple Monitor ###
+xrandr --output HDMI-1 --mode 1920x1080 --pos 1600x0 --rotate normal  --output VGA-1 --mode 1600x900 --pos 0x180 --rotate normal --left-of HDMI-1
+
+#xrandr --output HDMI1 --mode 1920x1080 --primary --output VGA1 --auto --left-of HDMI1
+
+### Wallpapers ###
+nitrogen --restore --random &
+
+### Status Bar ###
+dwmblocks &
+
+### Usb Port Detect ###
+udiskie -t &
+
+### Define Java Environment ###
+export _JAVA_AWT_WM_NONREPARENTING=1
+
