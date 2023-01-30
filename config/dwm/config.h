@@ -111,7 +111,7 @@ static Key keys[] = {
     {MODKEY, 			   XK_z, 	spawn, 		SHCMD("redshift -O 2400")},
     {MODKEY, 			   XK_x, 	spawn, 		SHCMD("redshift -x")},
     {MODKEY, 			   XK_n, 	spawn, 		SHCMD("thunar")},
-    {MODKEY|ShiftMask XK_l, spawn,    SHCMD("slock")}
+    {MODKEY|ShiftMask       XK_l, spawn,    SHCMD("slock")}
     
     };
 
