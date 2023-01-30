@@ -110,7 +110,11 @@ static Key keys[] = {
     {MODKEY, 			   XK_o, 	spawn, 		SHCMD("kitty")},
     {MODKEY, 			   XK_z, 	spawn, 		SHCMD("redshift -O 2400")},
     {MODKEY, 			   XK_x, 	spawn, 		SHCMD("redshift -x")},
-    {MODKEY, 			   XK_n, 	spawn, 		SHCMD("thunar")}};
+    {MODKEY, 			   XK_n, 	spawn, 		SHCMD("thunar")},
+    {MODKEY|ShiftMask XK_l, spawn,    SHCMD("slock")}
+    
+    };
+
 
 /* button definitions */
 /* click can be ClkTagBar, ClkLtSymbol, ClkStatusText, ClkWinTitle, ClkClientWin, or ClkRootWin */
