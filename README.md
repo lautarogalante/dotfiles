@@ -1,3 +1,3 @@
 # dotfiles
 Dotfiles
-## My personal desktop environmet settings
+#### My personal desktop environmet settings
