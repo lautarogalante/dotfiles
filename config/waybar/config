@@ -3,7 +3,7 @@
     "position":"bottom",
     "height": 30,
     //"width": 1280,
-    "spacing": 8,
+    "spacing": 6,
     "modules-left": ["sway/workspaces", "sway/mode"],
     "modules-center": ["sway/window"],
     //"icons-app": ["brave", "kitty"],
@@ -17,10 +17,8 @@
              "2": "",
              "3": "",
              "4": "",
-             "5": "",
-             "urgent": "",
-             "focused": "",
-             "default": ""
+             "5": "",
+             "6": ""
       }
     },
     "sway/window": {
