@@ -35,7 +35,7 @@
     },
     "cpu": {
         "format":"{usage}% ",
-        "on-click": "kitty htop"
+        "on-click": alacritty htop"
     },
     "memory": {
       "format": "{}%"

@@ -84,7 +84,7 @@ exec "/home/lautaro/Documentos/scripts/background.sh"
 
 
 ## Cursor
-seat seat0 xcursor_theme 'Breeze' 24
+#seat seat0 xcursor_theme 'Breeze' 24
 
 ## KeyBoards
 
@@ -111,8 +111,8 @@ input "type:keyboard" {
 
 ## Volume key
 
-bindsym $mod+Shift+m exec /usr/bin/pactl set-sink-volume 0 +10%
-bindsym $mod+Shift+n exec /usr/bin/pactl set-sink-volume 0 -10%
+bindsym $mod+Shift+m exec "/home/lautaro/Documentos/scripts/increse-volume.sh"
+bindsym $mod+Shift+n exec "/home/lautaro/Documentos/scripts/decrese-volume.sh"
 
 ## Change device sound
 
