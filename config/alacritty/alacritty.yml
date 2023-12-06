@@ -105,8 +105,8 @@ scrolling:
 font:
   # Normal (roman) font face
   normal:
-    family: Fira Code 
-    style: Regular
+    family: FiraCode Nerd Font
+    style: Medium
 
   # Bold font face
   # bold:
