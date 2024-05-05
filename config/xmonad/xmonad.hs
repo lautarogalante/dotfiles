@@ -58,7 +58,7 @@ myWorkspaces    = ["web","a","b","c","long","mx","sfx"]
 
 myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     [
-      ((modm, xK_a), (spawn myTerminal))
+      ((modm, xK_o), (spawn myTerminal))
     -- , ((modm, xK_q), (spawn "/usr/bin/bash -c 'notify-send -i time \"Right now, it is\" \"$(date \"+%-I:%M %p, %A %B %d, %Y\")\n$(acpi | sed \"s/Battery 0://\")\"'"))
     , ((modm.|. shiftMask,  xK_l), (spawn "slock"))
     , ((modm,     xK_j), windows W.focusDown)
@@ -135,7 +135,7 @@ myManageHook = composeAll
 
 myStartupHook = do
   spawnOnce "$HOME/.config/polybar/launch.sh"
-  spawnOnce "$HOME/Documentos/ScriptMaintenance/fondo.sh"
+  --spawnOnce "$HOME/Documentos/ScriptMaintenance/fondo.sh"
 ------------------------------------------------------------------------
 -- Now run xmonad with all the defaults we set up.
 main = do
